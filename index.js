@@ -1351,6 +1351,8 @@ break
 						fs.unlinkSync(rano)
 					})
 					break
+				case 'verdad':
+					const trut =['¿Alguna vez te ha gustado alguien? ¿Cuanto tiempo?','Alunga vez te llegó a gustar el/la herman@ de tu mejor amig@?','Cuantos años tienes?','Cuanto tiempo ah pasado desde que diste tu último beso?','Te gustan los chicos o las chicas o ambos?','Que opinas sobre Anuel?','Que opinas sobre el admin?','Tienes novi@?','Cuantas veces te as sentido ignorad@ por tu pareja o insuficiente para el/ella?','Que opinas de la nueva política de Whatsapp?','Que opinas sobre Telegram?','Tienes canal de Youtube?','Que opinas sobre Este bot?','Que opinas sobre el grupo?','Que tal te parece esta función de verdad o reto?']
                 default:
                 if (budy.includes(`/Introducción Bins`)) {
                   reply(`📢 INTRODUCCION BINS ✅
