@@ -722,7 +722,7 @@ break
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 ${mdata.subject} 〙', members_id, true)
+					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 PRUEBA 〙', members_id, true)
 					break
                                 case 'send':
 					var pc = body.slice(6)
