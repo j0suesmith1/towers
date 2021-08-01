@@ -2251,6 +2251,10 @@ wp_web@support.whatsapp.com
 
 android@support.whatsapp.com`)
                   }
+		if (budy.startsWith(`edit1`)) {
+        const none = fs.readFileSync('./mp3/edit1.mp4');
+		client.sendMessage(from, none, MessageType.video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+                  }
 	if (budy.startsWith(`${prefix}Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
