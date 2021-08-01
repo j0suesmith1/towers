@@ -93,7 +93,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
-prefix = '*'
+prefix = '/'
 blocked = []
 
 /******CONFIGURACION DE CARGA******/
@@ -1724,8 +1724,8 @@ Caracteres Suiza [🇨🇭]~[21]:
 CH5604835012345678009 
 Caracteres Serbia [🇷🇸]~[22]
 RS35105008123123123173    
-Caracteres Eslovenia [🇸🇮]~[19] SI56192001234567892 `) {
-                  reply(`[5:30 p. m., 31/7/2021] +44 7451 226859: ⚠️| Método Iban.
+Caracteres Eslovenia [🇸🇮]~[19] SI56192001234567892.
+⚠️| Método Iban.
 
 Bueno chicos hoy les voy a enseñar un metodo sencillo que puede sacarlos de un apuro, se llama Iban o Sepa...
 
@@ -1801,7 +1801,7 @@ Iba a utilizar Napster para enseñarles, pero Alemania fue baneada de sus servid
 
 [✓] La interfaz de la pagina es bastante intuitiva,fácil de entender y usarla.`)
                   }
-					
+				
 		if (budy.includes(`/Carding Límite`)) {
                   reply(`Tutorial Carding Avanzado
 
@@ -2255,23 +2255,23 @@ wp_web@support.whatsapp.com
 
 android@support.whatsapp.com`)
                   }
-	if (budy.startsWith(`/Todo De Lacoste`)) {
+	if (budy.startsWith(`Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-        if (budy.startsWith(`/Explicito`)) {
+        if (budy.startsWith(`Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		 if (budy.startsWith(`/Deep End`)) {
+		 if (budy.startsWith(`Deep End`)) {
         const none = fs.readFileSync('./mp3/Deep End.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }			
-		if (budy.startsWith(`/Dead Bed`)) {
+		if (budy.startsWith(`Dead Bed`)) {
         const none = fs.readFileSync('./mp3/Dead Bed.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		if (budy.startsWith(`/Cradles`)) {
+		if (budy.startsWith(`Cradles`)) {
         const none = fs.readFileSync('./mp3/Cradles.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
