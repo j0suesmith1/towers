@@ -332,7 +332,7 @@ async function starts() {
 					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
 					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play no funciona utiliza el comando *play2*\n\nву ѕнαη∂υу',
 					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play2 no funciona utiliza el comando *play*\n\nву ѕнαη∂υу',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,
+					daftarB: `ʜᴏʟᴀ ${pushname2} ᴀᴜɴ ɴᴏ ᴛᴇ ʜᴀs ʀᴇɢɪsᴛʀᴀᴅᴏ ᴄᴏᴍᴏ ᴜsᴜᴀʀɪᴏ ᴅᴇ ᴇʟ ʙᴏᴛ\n\n*ᴇsᴄʀɪʙᴇ ${prefix}daftar ɴᴏᴍʙʀᴇ|ᴇᴅᴀᴅ\n\nᴇᴊᴇᴍᴘʟᴏ ${prefix}daftar Joseph|19*`
 				}
 			}
     			const apakah = ['Si','No']
@@ -1029,10 +1029,10 @@ break
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
                 client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
                 break
-                                case 'registrar':
+                                case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('Ya estas registrado 🧐')
-					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}registrar nombre\nComando : ${prefix}registrar ᝰJσʂҽρԋ᭄`)
+					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}daftar nombre\nComando : ${prefix}daftar ᝰJσʂҽρԋ᭄`)
 					var reg = body.slice(8)
 					var nombre = reg.split("|")[0];
                                                 user.push(sender)
