@@ -681,7 +681,7 @@ break
 						})
 					})
 					break
-                                case 'listadmins':
+                                case 'staff':
 				case 'adminlist':
 					client.updatePresence(from, Presence.composing) 
                                         if (!isUser) return reply(mess.only.daftarB)
