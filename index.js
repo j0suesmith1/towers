@@ -259,6 +259,12 @@ async function starts() {
 				num = anu.participants[0]
 				teks = `Mi loco @${num.split('@')[0]}\nTodo bien NEFASTO!!!! Bienvenido a *${mdata.subject}* el mejor grupo una locura 👉😎👈\n\nUn gusto conocerte hijo de la maraca 😀\n\nOjito sigue las reglas del grupo si no, pa fuera mi loco los admins te eliminan 🧐\n\nPara utilizar el bot registrate con el comando ${prefix}daftar y tu nombre\n\nPara ver los demas comandos utiliza ${prefix}help\n\nOjito con el spam 🧐\n\nby shanduy`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
+				let buff = await getBuffer(ppimg)
+				dms.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})					
+				}
+				} catch (e) {
+			console.log('Error : %s', color(e, 'yellow'))
+		}
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
 				teks = `@${num.split('@')[0]} porfin te fuiste nadie te queria aki kk jajaja 😂👋`
