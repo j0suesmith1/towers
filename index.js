@@ -332,7 +332,8 @@ async function starts() {
 					insta: '❬ ESPERA ❭ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ :3',
 					musica: '❬ ESPERA ❭ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ :3',
 					musica2: '❬ ESPERA ❭ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ :3',
-					daftarB: `ʜᴏʟᴀ ${pushname2} ᴀᴜɴ ɴᴏ ᴛᴇ ʜᴀs ʀᴇɢɪsᴛʀᴀᴅᴏ ᴄᴏᴍᴏ ᴜsᴜᴀʀɪᴏ ᴅᴇ ᴇʟ ʙᴏᴛ\n\n*ᴇsᴄʀɪʙᴇ ${prefix}daftar ɴᴏᴍʙʀᴇ|ᴇᴅᴀᴅ\n\nᴇᴊᴇᴍᴘʟᴏ ${prefix}daftar Joseph|19*`
+					daftarB: `ʜᴏʟᴀ @${mentioned[0].split('@')[0]} ᴀᴜɴ ɴᴏ ᴛᴇ ʜᴀs ʀᴇɢɪsᴛʀᴀᴅᴏ ᴄᴏᴍᴏ ᴜsᴜᴀʀɪᴏ ᴅᴇ ᴇʟ ʙᴏᴛ\n\n*ᴇsᴄʀɪʙᴇ ${prefix}daftar ɴᴏᴍʙʀᴇ|ᴇᴅᴀᴅ\n\nᴇᴊᴇᴍᴘʟᴏ ${prefix}daftar Joseph|19*`,
+
 				}
 			}
     			const apakah = ['Si','No']
