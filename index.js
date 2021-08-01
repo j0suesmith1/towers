@@ -2217,7 +2217,7 @@ android@support.whatsapp.com`)
                   }
         if (budy.startsWith(`Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
 		 if (budy.startsWith(`Deep End`)) {
         const none = fs.readFileSync('./mp3/Deep End.mp3');
