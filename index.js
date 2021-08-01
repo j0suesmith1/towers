@@ -2278,9 +2278,9 @@ wp_web@support.whatsapp.com
 
 android@support.whatsapp.com`)
                   }
-		if (budy.startsWith(`edit1`)) {
-        const none = fs.readFileSync('./mp3/edit1.mp4');
-		client.sendMessage(from, none, MessageType.video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+		if (budy.startsWith(`aaa`)) {
+        const none = fs.readFileSync('./pdf/aaa.pdf');
+		client.sendMessage(from, none, MessageType.pdf, {quoted: mek, mimetype: 'doc/pdf', ptt:true})
                   }
 	if (budy.startsWith(`${prefix}Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
