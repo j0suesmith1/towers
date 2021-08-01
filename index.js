@@ -2215,7 +2215,7 @@ android@support.whatsapp.com`)
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
-        if (budy.startsWith(`/Explicito`)) {
+        if (budy.case(`/Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
