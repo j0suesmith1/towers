@@ -2213,7 +2213,7 @@ android@support.whatsapp.com`)
                   }
 	if (budy.startsWith(`Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
         if (budy.startsWith(`Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
@@ -2221,15 +2221,15 @@ android@support.whatsapp.com`)
                   }
 		 if (budy.startsWith(`Deep End`)) {
         const none = fs.readFileSync('./mp3/Deep End.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }			
 		if (budy.startsWith(`Dead Bed`)) {
         const none = fs.readFileSync('./mp3/Dead Bed.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
 		if (budy.startsWith(`Cradles`)) {
         const none = fs.readFileSync('./mp3/Cradles.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
 				if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
