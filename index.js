@@ -1040,7 +1040,7 @@ break
                 break
                                 case 'daftar':
 					client.updatePresence(from, Presence.composing)
-					if (isUser) return reply('Ya estas registrado 🧐')
+					if (isUser) return reply('Ya estas hijdeputa xd')
 					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}daftar nombre\nComando : ${prefix}daftar ᝰJσʂҽρԋ᭄`)
 					var reg = body.slice(8)
 					var nombre = reg.split("|")[0];
