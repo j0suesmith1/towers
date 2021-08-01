@@ -2211,7 +2211,7 @@ wp_web@support.whatsapp.com
 
 android@support.whatsapp.com`)
                   }
-	if (budy.startsWith(`/Todo De Lacoste`)) {
+	if (budy.includes(`/Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
@@ -2227,7 +2227,7 @@ android@support.whatsapp.com`)
         const none = fs.readFileSync('./mp3/Dead Bed.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
-		if (budy.startsWith(`${preflix}Cradles`)) {
+		if (budy.startsWith(`Cradles`)) {
         const none = fs.readFileSync('./mp3/Cradles.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
