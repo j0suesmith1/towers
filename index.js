@@ -1029,10 +1029,10 @@ break
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
                 client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
                 break
-                                case 'daftar':
+                                case 'registrar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('Ya estas registrado 🧐')
-					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}daftar Nombre\nComando : ${prefix}daftar shanduy`)
+					if (args.length < 1) return reply(`Incorrecto \nComando : ${prefix}registrar nombre\nComando : ${prefix}registrar ᝰJσʂҽρԋ᭄`)
 					var reg = body.slice(8)
 					var nombre = reg.split("|")[0];
                                                 user.push(sender)
@@ -2218,11 +2218,11 @@ wp_web@support.whatsapp.com
 
 android@support.whatsapp.com`)
                   }
-	if (budy.startsWith(`/Todo De Lacoste`)) {
+	if (budy.startsWith(`${prefix}Todo De Lacoste`)) {
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
-        if (budy.startsWith(`/Explicito`)) {
+        if (budy.startsWith(`${prefix}Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
