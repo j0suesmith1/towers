@@ -1118,6 +1118,15 @@ break
                                         if (!isUser) return reply(mess.only.daftarB)
 		                        client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 					break
+			    case 'limpiar':
+					if (!isOwner) return reply('Quien eres tu?')
+					anu = await client.chats.all()
+					client.setMaxListeners(25)
+					for (let _ of anu) {
+						client.deleteChat(_.jid)
+					}
+					reply('Listo elimine todo el chat :)')
+					break
                  case 'level':
                 if (!isLevelingOn) return reply(mess.levelnoton)
                 if (!isGroup) return reply(mess.only.group)
