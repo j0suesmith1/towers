@@ -1725,52 +1725,8 @@ CH5604835012345678009
 Caracteres Serbia [🇷🇸]~[22]
 RS35105008123123123173    
 Caracteres Eslovenia [🇸🇮]~[19] SI56192001234567892.
-⚠️| Método Iban.
 
-Bueno chicos hoy les voy a enseñar un metodo sencillo que puede sacarlos de un apuro, se llama Iban o Sepa...
-
-¿Y que es esto?
-
-El International Bank Account Number "Código Internacional de Cuenta Bancaria" en su traducción al español, es un código alfanumérico que identifica una cuenta bancaria determinada en una entidad financiera en cualquier lugar del mundo. 
-Es decir, a cada cuenta le corresponde un único IBAN mediante el cual se identifica el país, la entidad, la oficina y la cuenta. 
-Se trata de un estándar del Comité Europeo de Estándares Bancarios, que a su vez cumple con el estándar ISO 13616.
-
-A continuación les mostrare una lista de países que usan este metodo (esta actualizada así que aprecienlo)
-
-Caracteres Albania [🇦🇱]~[28]: AL35202111090000000001234567     
-  Caracteres Andorra [🇦🇩]~[24] AD1400080001001234567890  
-Caracteres Azerbaiyán [🇦🇿]~[28] AZ96AZEJ00000000001234567890         
- Caracteres Bahréin [🇧🇭]~[22] BH02CITI00001077181611  
-Caracteres Bélgica [🇧🇪]~[16]
-BE71096123456769  
-Caracteres Bosnia [🇧🇦]~[20]: BA275680000123456789 
-Caracteres Brasil [🇧🇷]~[29]: BR1500000000000010932840814P2          
- Caracteres Bulgaria [🇧🇬]~[22]:
-BG18RZBB91550123456789 
-Caracteres Costa Rica [🇨🇷]~[22] CR37012600000123456789  
-Caracteres Dinamarca [🇩🇰]~[18]: DK9520000123456789 
-Caracteres Alemania [🇩🇪]~[22]: DE91100000000123456789  
-Caracteres Salvador [🇸🇻]~[28]:
-SV43ACAT00000000000000123123     
- Caracteres Estonia [🇪🇪]~[20]:
-EE471000001020145685    
-Caracteres Finlandia [🇦🇽]~[18]:
-FI1410093000123458  
-Caracteres Francia [🇨🇵]~[27]: FR7630006000011234567890189   
-  Caracteres Georgia [🇬🇪]~[22]:
-GE60NB0000000123456789   
-Caracteres Polonia [🇵🇱]~[28]:
-PL10105000997603123456789123  
-  Caracteres Portugal [🇵🇹]~[25]:
-PT50002700000001234567833  
-Caracteres Rumania [🇲🇩]~[24]:
-RO09BCYP0000001234567890  
-Caracteres Suiza [🇨🇭]~[21]:
-CH5604835012345678009 
-Caracteres Serbia [🇷🇸]~[22]
-RS35105008123123123173    
-Caracteres Eslovenia [🇸🇮]~[19] SI56192001234567892 
-[5:30 p. m., 31/7/2021] +44 7451 226859: ⚠️| Método Iban Parte ²
+⚠️| Método Iban Parte ²
 
 ~Basicamente esa es la teoría de que es Iban 😛.
 
@@ -1952,7 +1908,7 @@ Termux puede servir para realizar varias pruebas de hacking, como por ejemplo, h
                   }
 			
 		if (budy.includes(`/Brazzers`)) {
-                  reply(`PEDIDO RECIBIDO @${num.split('@')[0]}😈
+                  reply(`PEDIDO RECIBIDO ${sender.split("@")[0]}😈
 		  
 https://mega.nz/folder/1htiVbCT#zKJrt7c9stOOS74VOLD2cw`)
 			                  }
