@@ -1350,6 +1350,10 @@ break
 							reply('❌ *ERROR* ❌')
 						}
 						break
+					case 'edit1':
+uwu = fs.readFileSync('./assets/edit1.mp4');
+client.sendMessage(from, uwu, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+break
                                 case 'ping':    
 			   	        if (!isUser) return reply(mess.only.userB)
                                         const timestamp = speed();
