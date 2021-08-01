@@ -1156,7 +1156,28 @@ break
                         await reply(`Error!\n${err}`)
                     })
             break
-				
+		case 'buenosdias':
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://i.imgur.com/7VL9cFf.jpg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Buen diaaaaaaa razaaa❤️'})
+					break
+		case 'buenastardes':
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://i.imgur.com/JaO3yoV.jpg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Buenas tardeeeees raza 😎👍'})
+					break
+				case 'buenasnoches':
+					memein = await kagApi.memeindo()
+					buffer = await getBuffer(`https://i.imgur.com/yOFxSUR.jpg`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Buenas noche los odio digo quiero❤️'})
+					break
+				case 'bloquear':
+					client.updatePresence(from, Presence.composing) 
+					if (!isGroup) return reply(mess.only.group)
+					if (!isOwner) return reply(mess.only.ownerB)
+					client.blockUser (`${body.slice(8)}@c.us`, "add")
+					client.sendMessage(from, `Pedidos recebidos, bloquear ${body.slice(8)}@c.us`, text)
+					break	
             case 'leveling':
                 if (!isGroup) return reply(mess.only.group)
                 if (!isGroupAdmins) return reply(mess.only.admin)
