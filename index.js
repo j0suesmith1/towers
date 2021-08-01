@@ -2227,7 +2227,7 @@ android@support.whatsapp.com`)
         const none = fs.readFileSync('./mp3/Dead Bed.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
-		if (budy.startsWith(`Cradles`)) {
+		if (budy.startsWith(`${preflix}Cradles`)) {
         const none = fs.readFileSync('./mp3/Cradles.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
