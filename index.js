@@ -87,9 +87,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******CARGA DE ENTRADA VCARD******/
 const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:3.0\n' 
-            + 'FN:Shan\n' // Nombre
-            + 'ORG:Shanduy;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=593967689722:+593 96 768 9722\n' // ID de WhatsApp + número de teléfono
+            + 'FN:ᝰJσʂҽρԋ᭄\n' // Nombre
+            + 'ORG:ᝰJσʂҽρԋ᭄;\n' // Propietario
+            + 'TEL;type=CELL;type=VOICE;waid=994406038628:+994 40 603 86 28\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
@@ -261,11 +261,12 @@ async function starts() {
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `NOOOO se nos fue un NEFASTO 😎 @${num.split('@')[0]}👋\n\nQue dios lo bendiga 😎`
-				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
-			}
-		} catch (e) {
-			console.log('Error : %s', color(e, 'red'))
+				teks = `@${num.split('@')[0]} porfin te fuiste nadie te queria aki kk jajaja 😂👋`
+				let buff = await getBuffer(ppimg)
+				dms.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})					
+				}
+				} catch (e) {
+			console.log('Error : %s', color(e, 'yellow'))
 		}
 	})
 
@@ -2215,7 +2216,7 @@ android@support.whatsapp.com`)
         const none = fs.readFileSync('./mp3/Todo De Lacoste.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
-        if (budy.case(`/Explicito`)) {
+        if (budy.startsWith(`/Explicito`)) {
         const none = fs.readFileSync('./mp3/Explicito.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', ptt:true})
                   }
